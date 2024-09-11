@@ -1,8 +1,8 @@
 <template>
-  <nav class="p-6 bg-purple-800">
-    <div class="flex justify-between items-end max-w-[1300px] mx-auto">
-      <div>
-        <p class="text-5xl text-white">Fvera</p>
+  <nav class="p-6 bg-black">
+    <div class="flex justify-between items-center max-w-[1300px] mx-auto">
+      <div class="border-4  rounded-full border-white flex items-center justify-center" >
+        <p class="text-white text-2xl font-bold px-5 py-1 leading-snug ">codeware</p>
       </div>
       <div class="md:flex hidden space-x-6">
         <a :href="item.path" :title="item.name" class="text-2xl text-white" v-for="(item, index) in navItems" :key="index">{{ item.name }}</a>
@@ -53,3 +53,10 @@ export default {
   }
 }
 </script>
+
+<style scoped >
+  body {
+    padding: 0;
+    margin: 0;
+  }
+</style>
