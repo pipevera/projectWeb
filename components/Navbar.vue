@@ -13,7 +13,7 @@
         </button>
       </div>
     </div>
-    <div :class="{ 'max-h-96': isMenuOpen, 'max-h-0': !isMenuOpen }" class="overflow-hidden absolute top-[84px] left-0 w-full bg-purple-800 md:hidden transition-all duration-500 ease-in-out">
+    <div :class="{ 'max-h-96': isMenuOpen, 'max-h-0': !isMenuOpen }" class="overflow-hidden absolute z-50 top-[84px] left-0 w-full bg-purple-800 md:hidden transition-all duration-500 ease-in-out">
       <ul class="flex flex-col font-normal text-sm font-mont gap-2 p-4">
         <li v-for="item in navItems" :key="item.url">
           <a :href="item.path" class="block py-2 px-2 text-2xl">
