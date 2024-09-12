@@ -2,11 +2,13 @@
   <div>
     <Navbar />
     <Header />
+    <FloatWhatsapp />
     <Footer />
   </div>
 </template>
 
 <script>
+import FloatWhatsapp from '~/components/FloatWhatsapp.vue';
 
 </script>
 
