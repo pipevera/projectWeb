@@ -1,8 +1,8 @@
 <template>
-  <nav class="p-6 bg-black">
+  <nav class="p-6 bg-codeblack ">
     <div class="flex justify-between items-center max-w-[1300px] mx-auto">
-      <div class="border-4  rounded-full border-white flex items-center justify-center" >
-        <p class="text-white text-2xl font-bold px-5 py-1 leading-snug ">codeware</p>
+      <div class="border-4 rounded-full border-white flex items-center justify-center hover:border-yellow-400 hover:text-yellow-400 transition" >
+        <a href="/" class=" text-2xl font-bold px-5 ">logo</a>
       </div>
       <div class="md:flex hidden space-x-6">
         <a :href="item.path" :title="item.name" class="text-2xl text-white" v-for="(item, index) in navItems" :key="index">{{ item.name }}</a>
@@ -13,7 +13,7 @@
         </button>
       </div>
     </div>
-    <div :class="{ 'max-h-96': isMenuOpen, 'max-h-0': !isMenuOpen }" class="overflow-hidden absolute z-50 top-[84px] left-0 w-full bg-purple-800 md:hidden transition-all duration-500 ease-in-out">
+    <div :class="{ 'max-h-96': isMenuOpen, 'max-h-0': !isMenuOpen }" class="overflow-hidden absolute z-50 top-[84px] left-0 w-full bg-codeblack md:hidden transition-all duration-500 ease-in-out">
       <ul class="flex flex-col font-normal text-sm font-mont gap-2 p-4">
         <li v-for="item in navItems" :key="item.url">
           <a :href="item.path" class="block py-2 px-2 text-2xl text-white">
@@ -29,7 +29,7 @@
 export default {
   data() {
     return {
-      isMenuOpen: false, // Controla si el menú está abierto o cerrado
+      isMenuOpen: false,
       navItems: [
         {
           name: "Inicio",
