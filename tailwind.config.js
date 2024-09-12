@@ -8,6 +8,9 @@ module.exports = {
     './app.vue'
   ],
   theme: {
+    fontFamily: {
+      mont: ["Montserrat", "sans-serif"],
+    },
     extend: {
       colors: {
         codeblack: "#121212"

@@ -7,11 +7,11 @@
     <div class="absolute inset-0 bg-black bg-opacity-50"></div>
     
     <!-- Contenido del banner -->
-    <div class="relative flex flex-col w-full h-full justify-center items-center max-w-[1300px] mx-auto text-center space-y-4 md:px-40 text-white p-6">
-      <h1 class=" text-2xl md:text-5xl">Creación de páginas web y soporte técnico</h1>
-      <h2 class="md:text-3xl">Desde el diseño de sitios web modernos hasta el mantenimiento de tus equipos, te brindamos el soporte tecnológico que tu negocio necesita para crecer.</h2>
+    <div class="relative flex flex-col w-full h-full justify-center items-center max-w-[1300px] mx-auto text-center space-y-4 md:px-40 text-white p-6 ">
+      <h1 class=" text-2xl md:text-5xl ">LOGO</h1>
+      <h2 class="md:text-2xl">Desde el diseño de sitios web modernos hasta el mantenimiento de tus equipos, te brindamos el soporte tecnológico que tu negocio necesita para crecer.</h2>
       <div class="space-x-4" >
-        <button class="rounded-md border-2 px-6" >
+        <button class="rounded-md border-2 px-6 " >
           button 1
         </button>
         <button class="rounded-md border-2 px-6" >
