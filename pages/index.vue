@@ -1,5 +1,5 @@
 <template>
-  <div class="font-mont" >
+  <div class="font-mont bg-codeblack" >
     <Navbar />
     <Header />
     <Description />
