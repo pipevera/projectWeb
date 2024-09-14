@@ -8,7 +8,7 @@
         <p class="text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, ipsa ut? Veritatis repellendus iste odit ut, consectetur sed nam commodi cupiditate corrupti eaque? Officiis quod voluptates enim quasi molestiae laborum?</p>
       </div>
       <div class="p-6 animate-fade-left">
-        <img src="/images/home/codeware.png" alt="">
+        <img class="w-full" src="/images/home/CodeWare.png" alt="">
       </div>
     </div>
 
