@@ -8,8 +8,8 @@
         <p class="text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, ipsa ut? Veritatis repellendus iste odit ut, consectetur sed nam commodi cupiditate corrupti eaque? Officiis quod voluptates enim quasi molestiae laborum?</p>
       </div>
       <div class="p-6 animate-fade-left">
-        <img class="w-full" src="/images/home/codeware.png" alt="Dispositivos" title="dispositivos">
-  
+        
+  <img src="@/public/images/home/codeware.png" alt="">
       </div>
     </div>
 
