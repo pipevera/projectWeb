@@ -13,7 +13,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        codeblack: "#121212"
+        codeblack: "#111827"
       },
       
     },

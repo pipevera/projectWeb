@@ -1,5 +1,5 @@
 <template>
-  <section class="relative h-[calc(100vh-96px)]">
+  <section class="relative h-[calc(100vh-88px)]">
     <!-- Imagen de fondo -->
     <div class="absolute inset-0 bg-[url('/images/home/banner.jpg')] bg-cover bg-center"></div>
     
