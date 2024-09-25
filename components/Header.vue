@@ -1,7 +1,7 @@
 <template>
   <section class="relative h-[calc(100vh-88px)]">
     <!-- Imagen de fondo -->
-    <div class="absolute inset-0 bg-[url('/images/home/banner.jpg')] bg-cover bg-center"></div>
+    <div class="fixed z-0 inset-0 bg-[url('/images/home/banner.jpg')] bg-cover bg-center"></div>
     
     <!-- Capa negra semitransparente -->
     <div class="absolute inset-0 bg-black bg-opacity-50"></div>

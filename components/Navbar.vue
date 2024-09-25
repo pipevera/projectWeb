@@ -1,5 +1,5 @@
 <template>
-  <nav class="p-6 bg-codeblack ">
+  <nav class="p-6 bg-codeblack relative z-10 ">
     <div class="flex justify-between items-center max-w-[1300px] mx-auto">
       <div class=" flex items-center justify-center hover:border-yellow-400 hover:text-yellow-400 transition" >
         <a href="/" class=" text-4xl font-bold px-5 text-white hover:text-yellow-500">Logo</a>

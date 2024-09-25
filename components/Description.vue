@@ -1,21 +1,22 @@
 <template>
-  <section class="max-w-[1300px] mx-auto bg-codeblack" >
-    <div class="flex flex-col justify-center md:flex md:flex-row  md:items-center">
-      <div class="w-full md:w-2/4 space-y-6 p-6 animate-fade-right">
-        <h2 class="text-5xl text-balance text-white">Lorem ipsum dolor sit amet consectetur</h2>
-        <p class="text-xl text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, distinctio ut ullam nisi, eos eum mollitia incidunt ratione soluta quaerat debitis eveniet quas quae doloribus earum dolorem quia id quos.</p>
-        <p class="text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium amet rem accusamus nobis dolorum vitae soluta similique repudiandae odio beatae. Veniam recusandae est quo aut provident dignissimos, saepe adipisci in!</p>
-       
+  <section class="bg-codeblack relative" >
+    <div class="max-w-[1300px] mx-auto" >
+      <div class="flex flex-col justify-center md:flex md:flex-row  md:items-center">
+        <div class="w-full md:w-2/4 space-y-6 p-6 animate-fade-right">
+          <p class="text-lg text-white">Somos expertos en diseñar páginas web a medida, totalmente responsivas que hacen brillar tu negocio en línea, combinando creatividad y funcionalidad. </p>
+          <p class="text-lg text-white">Además, mantenemos tus computadoras en perfecto estado con nuestros servicios de mantenimiento técnico, asegurando que todo funcione de forma rápida y sin interrupciones. ¡Nos apasiona llevar tu mundo digital al siguiente nivel!</p>
+        </div>
+        <div class="p-6 w-full md:w-2/4">
+          <LottieAnimation 
+            :animation-data="Animation1"
+            :auto-play="true"
+            :loop="true"
+            :speed="1"
+            ref="anim" />
+          
+        </div>
       </div>
-      <div class="p-6 w-full md:w-2/4">
-        <LottieAnimation 
-          :animation-data="Animation1"
-          :auto-play="true"
-          :loop="true"
-          :speed="1"
-          ref="anim" />
-        
-      </div>
+
     </div>
   </section>
 </template>
