@@ -5,7 +5,7 @@
         <a href="/" class=" text-4xl font-bold px-5 text-white hover:text-yellow-500">Logo</a>
       </div>
       <div class="md:flex hidden space-x-6">
-        <a :href="item.path" :title="item.name" class="text-2xl text-white hover:text-yellow-400 transition" v-for="(item, index) in navItems" :key="index">{{ item.name }}</a>
+        <a :href="item.path" :title="item.name" class="text-xl text-white hover:text-yellow-400 transition" v-for="(item, index) in navItems" :key="index">{{ item.name }}</a>
       </div>
       <div class="md:hidden block">
         <button @click="toggleMenu">
